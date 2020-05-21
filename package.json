@@ -5,7 +5,8 @@
   "main": "bin/index.js",
   "bin": "bin/index.js",
   "scripts": {
-    "build": "babel -d bin src && chmod +x bin/index.js"
+    "build": "babel -d bin src && chmod +x bin/index.js",
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
