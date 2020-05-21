@@ -12,4 +12,7 @@ npm i -g aws-s3-downloader
 
 ```shell
 aws-s3-downloader -b {Bucket_Name} -p {Prefix} -d {Output_DIR}
+
+// or get help
+aws-s3-downloader -h
 ```
