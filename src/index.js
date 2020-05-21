@@ -25,17 +25,6 @@ const { argv } = yargs
     description: 'Prefix for files',
     type: 'string',
   })
-  // .option('key', {
-  //   alias: 'k',
-  //   description: 'single file key',
-  //   type: 'string',
-  // })
-  // .option('all-versions', {
-  //   alias: 'all',
-  //   description: 'get all verssions',
-  //   type: 'boolean',
-  //   default: false,
-  // })
   .option('out-dir', {
     alias: 'd',
     description: 'output',
